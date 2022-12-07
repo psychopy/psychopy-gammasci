@@ -24,8 +24,10 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: Implementation :: CPython",
 ]
-urls.homepage = "https://github.com/mdcutone/psychopy-gammasci"
-urls.changelog = "https://github.com/mdcutone/psychopy-gammasci/blob/main/CHANGELOG.txt"
+urls.homepage = "https://github.com/psychopy/psychopy-gammasci"
+urls.changelog = "https://github.com/psychopy/psychopy-gammasci/blob/main/CHANGELOG.txt"
+urls.documentation = "https://pages.github.com/psychopy/psychopy-gammasci"
+urls.repository = "https://github.com/psychopy/psychopy-gammasci"
 dependencies = [
   "pyserial",
 ]
