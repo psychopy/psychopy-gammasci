@@ -32,5 +32,21 @@ dependencies = [
   "pyserial",
 ]
 
+[project.optional-dependencies]
+# dependencies for building the docs
+docs = [
+  "psychopy",
+  "sphinx",
+  "furo",
+]
+# dependencies for running the test suite
+tests = [
+  "psychopy @ git+https://github.com/psychopy/psychopy@release",
+  "pytest",
+]
+
+[project.entry-points."psychopy.hardware.pr"]
+S470 = "psychopy_gammasci.gammasci:S470"
+
 [tool.setuptools.packages.find]
 where = ["",]

@@ -1,0 +1,16 @@
+===============================
+S470
+===============================
+
+To import S470, you can either use::
+
+    from psychopy_gammasci.gammasci import S470
+
+or, any time after `psychopy.plugins.activatePlugins` has been called::
+
+    from psychopy.hardware.gammasci import S470
+
+.. autoclass:: psychopy_gammasci.gammasci.S470
+    :members:
+    :undoc-members:
+    :inherited-members:
