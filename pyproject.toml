@@ -45,7 +45,7 @@ tests = [
   "pytest",
 ]
 
-[project.entry-points."psychopy.hardware.pr"]
+[project.entry-points."psychopy.hardware.gammasci"]
 S470 = "psychopy_gammasci.gammasci:S470"
 
 [tool.setuptools.packages.find]
